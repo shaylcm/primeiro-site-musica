@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Um site sobre  Música</title>
+    <meta charset="utf-8">
+    <meta name="description" content="música, music,intrumentos,musicais">
+    <meta name="keywords" content="musica,intrumentos,violão,guitarra,teclado,music">
+    <meta  name="author" content="Shayene">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesite.css">
+    <script src="https://kit.fontawesome.com/f8a1a80167.js " crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link rel="shortcut icon"  href="icone.png">
+</head>
+<body id="topo"  background="music3.png">
+  <header>
+    <h1 id="primeiro" ><button class="boto">FORMULÁRIO SOBRE MÚSICA</button></h1>
+    <nav>
+
+           <input type="checkbox":checked id="check" >
+           <label for="check" class="checkok">
+            <i class="fas fa-bars"></i></label></input>
+             <button id="bot"><label class="logo">MÚSICA</label></button>  
+            
+         <ul id="menuzinho">
+             <li> <a href="#rodape"><i class="fas fa-angle-double-down"></i>Ir para rodapé</a></li>
+             <li><a href="index.html"> <i class="fas fa-home"></i>Página inicial    </a></li>
+             <li><a href="instrumentos.html"><i class="fas fa-guitar"></i>Instrumentos musicais </a></li>
+             <li><a href="formulario.html"><i class="fas fa-edit"></i>Formulário </a></li>
+             <li><a href="contato.html"><i class="fas fa-phone"></i>Contato </a></li>
+         </ul><br><br>
+     </nav>
+ </header> <br><br><br><br><br>
+         <form  name="formu" method="POST"  id="f1" action="formulario.html">
+         	<label>
+         		Nome:
+         		<input type="text" name="nome" placeholder="insira seu nome" id="form">
+         	</label>
+         	<br><br>
+         	<label>
+         	    Email:
+         	    <input type="text" name="email " placeholder="Insira seu email"  id="form">
+
+         	</label>
+         	<br><br>
+         	<label>
+         		Idade:
+         		<input type="text" name="nome"  placeholder="insira sua idade"  id="form">
+         	</label>
+         	<br><br>
+         	<label>
+         		<br>
+         		Qual dos  instrumentos a abaixo você sabe tocar?
+         		<br>
+         		<input type="radio" name="frm_intrumentos" >
+         		Violão
+         	</label>
+         	<br>
+         	<label>
+         		<input type="radio" name="frm_intrumentos" >
+         		Guitarra
+         	</label>
+         	<br>
+         	    
+         	<label>
+         		<input type="radio" name="frm_intrumentos" >
+         		Piano
+         	</label>
+         	<br>   
+         	<label>
+         		<input type="radio" name="frm_intrumentos" >
+         		Teclado
+         	</label>
+         	<br>   
+         	<label>
+         		<input type="radio" name="frm_intrumentos" >
+         		Violino
+         	</label>
+         	<br> 
+         	<label>
+         		<input type="radio" name="frm_intrumentos" >
+         		Flauta
+         	</label>
+         	<br>
+         	<label>
+         		<input type="radio" name="frm_intrumentos" >
+         		Ukulele
+         	</label>
+         	<br>
+         	<label>
+         		<input type="radio" name="frm_intrumentos" >
+         		Cajón
+         	</label>
+         	<br>
+         	<label>
+         		<input type="radio" name="frm_intrumentos" >
+         		outro(s)
+         	</label>
+         	<br><br>
+         	<label>
+         		se Outro  ou mais de 1 digite aqui:
+         		<br>
+         		<textarea name="texto" placeholder="quais outros instrumentos voce sabe tocar" id="form" class="text"></textarea>
+         	</label><br><br>
+         	<label>
+         		qual estilo/genero de música você mais gosta ?
+         		<br>
+         		<select name="frm_opção">
+         		<option >Axé</option>
+         	    <option>Blues</option>
+         		<option>Country</option>
+         		<option>Eletrônica</option>
+         		<option>Forró</option>
+         		<option>Funk</option>
+         		<option>Gospel</option>
+                <option>Hip-Hop</option>
+                <option>Jazz</option>
+                <option>MPB</option>
+                <option>Música Clássica</option>
+                <option>Pagode</option>
+                <option>Pop</option>
+                <option>Rap</option>
+                <option>Reggae</option>
+                <option>Rock</option>
+                 <option>Samba</option>
+                <option>Sertanejo</option>
+         		<option>Outro(s)</option>
+         		</select><br><br>
+           	Se Outro , digite aqui:
+           	<br>
+           	<textarea name="texto"  placeholder="Qual outro estilo você gosta?" id="form" class="text"></textarea>
+           </label>		
+         	<br><br>
+         	<label >
+         		<input type="button" value="enviar!" class="botao" >
+         	</label><br><br>
+         	<hr>
+    <footer id="rodape" >
+          <a href="#topo"><i class="fas fa-angle-double-up"></i>Voltar ao topo</a><br>
+          <br><br>
+     <div class="copyright" align="center">
+          <span >&copy;-Shayene</span>
+          </div>
+    </footer>
+
+    </form>
+     </header>
+       <script type="text/javascript" src="tems.js"></script>
+ </body>
+</html>
