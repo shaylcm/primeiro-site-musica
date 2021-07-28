@@ -11,8 +11,6 @@ var apaga =document.querySelector("#apaga");
 
 
 
-//alerta 1
-alert("  --------------------BEM VINDOS!------------------------ );
 
 //MUDAR TEMA DA PÁGINA
 bot.onclick = function(){
@@ -26,7 +24,7 @@ bot.onclick = function(){
 
 
 };
-//VOTRA PARA O TEMA ORIGINAL DA
+//VOLTAR PARA O TEMA ORIGINAL DA
 boto.onclick=function(){
 	primeiro.style.backgroundColor = "#008B8B";
 	nav.style.backgroundColor=" black";
