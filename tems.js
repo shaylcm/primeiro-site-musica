@@ -7,8 +7,6 @@ var botao=document.querySelector(".botao");
 var select=document.querySelector("select");
 var boto=document.querySelector(".boto");
 
-//ALERTA 1 
-alert("  --------------------BEM VINDOS!------------------------ ");
 
 //MUDAR TEMA DA PÁGINA	                
 bot.onclick = function(){
